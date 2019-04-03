@@ -1,0 +1,44 @@
+body {
+    height: 2000px;
+}
+article{
+    background-color: #fa8231;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 500px; /* Geriau nefiksuoti elemento plocio */
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/280h/AZHUX01GDI.jpg);
+    background-size: cover; /* px, procentai ir cover/contain*/
+    background-repeat: no-repeat;
+    background-position: right 40%;/* center, top right, x/y %,px */   
+    color: #ffffff
+        
+        
+    /* height: 50%; Negerai naudoti neatsargiai */
+}
+
+p {
+    width:500px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: white;
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+/* Nenaudojame css'e ID */
+
+#p1 {
+    color: red;
+}
+.red {
+    color: #ff0000;
+}
